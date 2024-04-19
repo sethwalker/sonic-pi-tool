@@ -12,7 +12,7 @@ fn main() {
         .version(crate_version!());
 
     let check = SubCommand::with_name("check")
-        .about("Check if the Sonic Pi server is listening on port 4557");
+        .about("Check if the Sonic Pi server is listening on port 4560");
 
     let eval = SubCommand::with_name("eval")
         .about("Takes a string of Sonic Pi code and sends it to the server")

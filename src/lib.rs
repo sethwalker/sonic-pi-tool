@@ -45,10 +45,10 @@ pub fn eval(code: String) {
 ///
 pub fn check() {
     if server::server_port_in_use() {
-        println!("Sonic Pi server listening on port 4557");
+        println!("Sonic Pi server listening on port 4560");
         process::exit(0);
     } else {
-        println!("Sonic Pi server NOT listening on port 4557");
+        println!("Sonic Pi server NOT listening on port 4560");
         process::exit(1);
     }
 }
